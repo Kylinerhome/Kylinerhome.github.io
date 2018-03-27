@@ -1,0 +1,90 @@
+#people_context{
+    margin-top: 60px;
+}
+.professor_name{
+    font-size: 30px;
+
+}
+#professor{
+    height: 560px;
+}
+.professor1{
+<<<<<<< HEAD
+    width: 800px;
+=======
+    width: 900px;
+>>>>>>> 3
+    height: 200px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.professor_img{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.position{
+    font-weight: bold;
+    font-size: 16px;
+}
+.email{
+
+}
+.page{
+
+}
+.professor_p{
+    float: left;
+    height: 160px;
+<<<<<<< HEAD
+    width: 530px;
+=======
+    width: 650px;
+>>>>>>> 3
+    margin-left: 50px;
+}
+#PHD{
+    height: 800px;
+
+}
+.PHD1{
+    width: 1400px;
+    height:300px;
+    margin: auto;
+    margin-top: 20px;
+}
+.people_3{
+    width: 200px;
+    float: left;
+    height: 300px;
+    margin-left: 200px;
+}
+#master{
+    height: 450px;
+}
+.Master1{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+}
+.people_2{
+    width: 200px;
+    float: left;
+    height: 300px;
+    margin-left: 200px;
+
+}
+.hr1{
+<<<<<<< HEAD
+    width: 600px;
+=======
+    width: 650px;
+>>>>>>> 3
+    color: blue;
+}

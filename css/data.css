@@ -1,0 +1,13 @@
+.data_download{
+    width: 800px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.detail{
+    margin-left: 20px;
+}
+.dataset_detail{
+    margin-left: 20px;
+    margin-top: 5px;
+}

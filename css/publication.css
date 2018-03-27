@@ -1,0 +1,31 @@
+.time{
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.time a{
+    text-decoration:none;
+}
+
+.time a:visited{
+    color: blue;
+}
+
+.third_name{
+     font-weight: bold;
+     font-style: italic;
+ }
+.hr11{
+    width: 1000px;
+    color: yellowgreen;
+<<<<<<< HEAD
+=======
+}
+.recent_pub{
+    margin-top: 40px;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+>>>>>>> 3
+}

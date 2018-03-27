@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<<<<<<< HEAD
+    <title>Welcome to NUDT's kyliner Home</title>
+=======
+    <title>Welcome to Text Mining Group</title>
+>>>>>>> 3
+    <link rel="stylesheet" href="css/com.css">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--webfonts-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/demo.css">
+    <!--//webfonts-->
+</head>
+<body>
+
+<!--nlp图片-->
+<div id="home_img"><img src="image/nlp.jpg"></div>
+
+<!--导航�?-->
+<div id="nav">
+    <div id="nav1" >
+        <a href="index.html"><div class="topnav center" >home</div></a>
+        <a href="people.html"><div class="topnav center">people</div></a>
+<<<<<<< HEAD
+        <a href="publication.html"><div class="topnav center" id="spnav">publication</div></a>
+=======
+        <a href="publication.html"><div class="topnav center" id="spnav">Recent</div></a>
+>>>>>>> 3
+        <a href="demo.html"><div class="topnav center"><span class="fontcolorred">demo</span></div></a>
+        <a href="data.html"><div class="topnav center">data</div></a>
+    </div>
+</div>
+
+
+<div class="submit-demo">
+    <br><br><br>
+    <h1 class="center">Drug-Drug Interactions Search Engine</h1>
+
+<div class="submit-forms">
+        <p class="form_p">Drug-drug interaction (DDI) is a vital information when physicians and pharmacists intend to co-administer two or more drugs.
+            Thus, several DDI databases are constructed to avoid mistakenly drug combined use. In recent years, automatically extracting DDIs from biomedical text has drawn researchers attention. However, the existing work
+            utilize either complex feature engineering or NLP tools, both of which are insufficient for sentence comprehension. Inspired by the deep learning approaches in natural language processing, we propose a recurrent
+            neural network model with multiple attention layers for DDI classification. We evaluate our model on 2013 SemEval DDIExtraction dataset. The experiments show that our model classifies most of the drug pairs
+            into correct DDI categories, which outperforms the existing NLP or deep learning methods.</p>
+        <form class="form-inline signup" role="form" action="result.php" method="post">
+            <div class="form-group">
+                <span class="form_title">Type the drugs which you'd like to find their DDI</span><br><br><br>
+                <input type="text" class="form-control" id="exampleInputText" name="keywords" value="aspirin clopidogrel">
+            </div>
+            <br><br><br><br>
+            <input type="submit" class="btn btn-theme" value="Search">
+        </form>
+
+
+
+
+    </div>
+<div class="submit-forms">
+
+    <p class="form_p">
+        When two or more drugs are administered simultaneously,this may result in significant drug interaction-adverse events(DIAES)
+        which can alter drug effectiveness or even harm the patient.We applied Apriori algorithm to the FARES to extract patterns of
+        drug DIAES and designed a search engine for the medical researchers.The engine requires some parameters as inputs and returns
+        all satisfied records. We aim to efficiently identify known DIAEs and probably detect novel DIAE signals as well.</p>
+    <form action="searchResult.php" method="post">
+        <span class="form_title">Drug1:</span><br>
+        <input type="text" size="30px"  name="drug1" value="TOCILIZUMAB" onfocus="this.value = '';" onblur="if (this.value == 'DRUG1') {this.value = 'TOCILIZUMAB';}">
+        <br><br>
+        <span class="form_title"> Drug2:</span><br>
+        <input type="text" size="30px"  name="drug2" value="RITUXIMAB" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'RITUXIMAB';}">
+        <br><br>
+        <span class="form_title"> Minimum Support Value:</span><br>
+        <input type="text" size="30px"  name="minSupport" value=2 onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 2}">
+        <br><br>
+        <span class="form_title">Minimum PRR Value:</span><br>
+        <input type="text" size="30px"  name="minPRR" value=2 onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 2}">
+        <br><br>
+        <input type="text" size="30px"  value="Enter something else" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter something else';}">
+        <br><br><br>
+        <br>
+        <input type="submit" value="Search">
+
+    </form>
+</div>
+
+
+
+</div>
+<!--底栏-->
+<div id="foot">
+<<<<<<< HEAD
+    <p class="center">&copy;2018 NUDT's kyliner Home</p>
+=======
+    <p class="center">&copy;2018 TMG@NUDT</p>
+>>>>>>> 3
+</div>
+</body>
+</html>

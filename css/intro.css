@@ -1,0 +1,74 @@
+.intro_base {
+    width: 1000px;
+    margin: auto;
+    min-height: 500px;
+}
+.topic{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.eduction{
+    width: 1000px;
+}
+.eduction1{
+    height: 45px;
+}
+.year{
+    margin-left: 30px;
+    width: 200px;
+    float: left;
+}
+.edu_work{
+    margin-left: 40px;
+    width: 600px;
+    float: left;
+    height: 40px;
+}
+.professor1{
+    width: 1000px;
+    height: 220px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.professor_img{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.professor_p{
+    float: left;
+    height: 200px;
+<<<<<<< HEAD
+    width: 530px;
+    margin-left: 50px;
+}
+.hr1{
+    width: 600px;
+=======
+    width: 650px;
+    margin-left: 50px;
+}
+.hr1{
+    width: 650px;
+>>>>>>> 3
+    color: blue;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.position{
+    font-weight: bold;
+    font-size: 16px;
+}
+.publication{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.third_name{
+    font-weight: bold;
+    font-style: italic;
+}

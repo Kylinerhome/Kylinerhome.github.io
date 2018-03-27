@@ -1,0 +1,31 @@
+#home_context{
+    margin: auto;
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.home_context_img{
+    margin: auto;
+    width: 600px;
+
+}
+.home_context_P{
+    margin: 30px;
+    margin: auto;
+    width: 1200px;
+    margin-left: -100px;
+
+}
+.intro{
+    font-family: "Times New Roman";
+    text-align: justify;
+    width: 1180px;
+    font-size: 20px;
+}
+.title{
+    margin-top: 20px;
+}
+.topic{
+    font-weight: bold;
+}
