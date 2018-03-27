@@ -42,26 +42,16 @@ hr{
 .topnav{
     line-height: 60px;
     height: 60px;
-<<<<<<< HEAD
-    width: 200px;
-=======
     width: 220px;
->>>>>>> 3
     float: left;
     color: white;
     font-size: 26px;
     text-transform: uppercase;
 }
 /*给publication更大的空间*/
-<<<<<<< HEAD
-#spnav{
-    width: 300px;
-}
-=======
 /*#spnav{*/
     /*width: 300px;*/
 /*}*/
->>>>>>> 3
 .fontcolorred{
     color: red ;
 }

@@ -40,19 +40,11 @@
 .professor_p{
     float: left;
     height: 200px;
-<<<<<<< HEAD
-    width: 530px;
-    margin-left: 50px;
-}
-.hr1{
-    width: 600px;
-=======
     width: 650px;
     margin-left: 50px;
 }
 .hr1{
     width: 650px;
->>>>>>> 3
     color: blue;
 }
 
